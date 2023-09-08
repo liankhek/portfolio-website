@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This responsive portfolio website showcases Lian Khek's professional experience and relevant skills. The site also demonstrates her front-end development skills. The website is built with HTML and CSS."/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Portfolio</title>
+        <link rel="shortcut icon" href="img/Favicon.ico" type="image/x-icon" />
+        <!--Google fonts Barlow condensed and Montserrat start-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+        <!--Google fonts Barlow condensed and Montserrat end-->
+        <!--Normalize CSS to reset the browsers' default-->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <!--Personal CSS Link-->
+        <link rel="stylesheet" type="text/css" href="css/style.production.css">
+        <!--<link rel="stylesheet" type="text/css" href="css/styles.css">-->
+
+    </head>
+    <body>
+        <div class="page-container">
+            <div class="content-wrap">
+
+                <!--------------------------------Header --------------------------------------->
+                <header class="page-header">
+                    
+                    <div class="header-logo-container">
+                        <img src="img/logo.svg" alt="logo" class="page-header__item header-logo" width="200" height="200">
+                    </div>
+                
+                    <nav class="main-navigation page-header__item" role="navigation">
+
+                        <ul role="menubar" class="navigation-list">
+                            <li role="presentation">
+                                <a href="index.html" role="menuitem" class="navigation-list__item" title="Go to Home Page">Home</a>
+                            </li>
+                            <li role="presentation">    
+                                <a href="about.html" role="menuitem" class="navigation-list__item" title="Go to About Me Page">About Me</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="work.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Work</a>                            </li>
+                                <li role="presentation">
+                                <a href="contact.html" role="menuitem" class="navigation-list__item" title="Go to Contact Page">Contact</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+                    
+                </header>
+
+                <!--------------------------------Main ----------------------------------------->
+                <main>
+                    <section class="work-content">
+
+                        <h1>Work</h1>
+
+                        <div class="project-grid">
+                            <!--Grid items will live here-->
+                            <article class="project__item">
+                                <h2>1. Mobile<span> web </span>app</h2>
+                                <p>
+                                    Within this project, I was responsible for the frontend. It's written in React.js.
+                                    Additionally, I've created the HTML and CSS templates.
+                                </p>
+                                <a href="#">See project o Github</a>
+                            </article>
+
+                            <article class="project__item">
+                                <h2>2. Node.js pdf generation</h2>
+                                <p>
+                                    Within this project, I created a service that generate pdf out of webjages with help of node.js server.
+                                </p>
+                                <a href="#">See project o Github</a>
+                            </article>
+
+                            <article class="project__item">
+                                <h2>3. Styleguide for portfolio page</h2>
+                                <p>
+                                    Here you can find the styleguide I've created for this portfolio page.
+                                    It was created with the livingstyleguide gem and grunt.
+                                </p>
+                                <a href="#">See styleguide</a>
+                            </article>
+
+                            <article class="project__item">
+                                <h2>4. Your project?</h2>
+                                <p>
+                                    I can help i realizing front-end and banck-end projects with the following technologies: React.js,JavaScript, Java, JavaFX, HTML, CSS. I am also happy to learn other technologies if needed.
+                                </p>
+                                <a href="#">See styleguide</a>
+                            </article>
+
+                            <article class="project__item">
+                                <h2>5. Native MacOS application</h2>
+                                <p>
+                                Within this project, I was responsible for the front-end.
+                                It is written in JavaFX.
+                                </p>
+                                <a href="#">See project on Github</a>
+                            </article>
+
+                            <article class="project__item">
+                                <h2>Project 6</h2>
+                                <p>
+                                Within this project, I was responsible for the front-end.
+                                </p>
+                                <a href="#">See project on Github</a>
+                            </article>
+
+                        </div>
+
+                    </section>
+
+                </main>
+            </div>
+                            
+            <!-----------------------------Footer with links to social media profiles---------------------->
+            <footer class="page-footer">
+
+                <div class="social-media">
+                    <h3>Find me on</h3> 
+                    
+                    <img src="img/github.svg" alt="Github">
+                    <img src="img/twitter.svg" alt="Twitter">
+                    <img src="img/LinkedIn.svg" alt="LinkedIn">
+                </div>
+
+            </footer>
+            
+            <script src="js/tota11y.min.js"></script>
+        </div>
+    </body>
+</html>

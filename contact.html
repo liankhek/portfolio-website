@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This responsive portfolio website showcases Lian Khek's professional experience and relevant skills. The site also demonstrates her front-end development skills. The website is built with HTML and CSS."/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Portfolio</title>
+        <link rel="shortcut icon" href="img/Favicon.ico" type="image/x-icon" />
+        <!--Google fonts Barlow condensed and Montserrat start-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+        <!--Google fonts Barlow condensed and Montserrat end-->
+        <!--Normalize CSS to reset the browsers' default-->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <!--Personal CSS Link-->
+        <link rel="stylesheet" type="text/css" href="css/style.production.css">
+        <!--<link rel="stylesheet" type="text/css" href="css/styles.css">-->
+
+    </head>
+    <body>
+        <div class="page-container">
+            <div class="content-wrap">
+                <!--------------------------------Header --------------------------------------->
+                <header class="page-header">
+
+                    <div class="header-logo-container">
+                        <img src="img/logo.svg" alt="logo" class="page-header__item header-logo" width="200" height="200">
+                    </div>
+                    
+                    <nav class="main-navigation page-header__item" role="navigation">
+
+                        <ul role="menubar" class="navigation-list">
+                            <li role="presentation">
+                                <a href="index.html" role="menuitem" class="navigation-list__item" title="Go to Home Page">Home</a>
+                            </li>
+                            <li role="presentation">    
+                                <a href="about.html" role="menuitem" class="navigation-list__item" title="Go to About Me Page">About Me</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="work.html" role="menuitem" class="navigation-list__item" title="Go to Work Page">Work</a>
+                            </li>
+                                <li role="presentation">
+                                <a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a>
+                            </li>
+                        </ul>
+
+                    </nav>   
+
+                </header>
+                
+                <!--------------------------------main --------------------------------------->
+                <main>
+                    <address class="contact-info">
+                        <h1>Contact</h1>
+                    
+                        Lian Khek<br>
+                        2384 Pawnee Ave S<br>
+                        MontG Florida 47348<br>
+
+                        Phone:<a href="tel:+49 30 4849 2016">+49 30 4849 2016</a><br>
+                        Skype:<a href="skype:hello.careerfoundry">hello.careerfoundry</a><br>
+                        Email:<a href="mailto:office@careerfoundry.com">office@careerfoundry.com</a><br>
+                        <a href="mailto:office@careerfoundry.com">Contact me</a>
+
+                    </address>
+
+                        <p>For any inquiries, you may contact me by filling up the following form</p>
+
+                    <div class="contact-form">
+                        <form action="" method="post">
+
+                            <label class="standard-label" for="name">Name: *</label>
+                            <input type="text" id="name" placeholder="First and Last Name" required>
+
+                            <label class="standard-label" for="contact-email">E-mail: *</label>
+                            <input type="email" id="contact-email" placeholder="name@example.com" required>
+                            
+                            <label class="standard-label" for="telephone">Telephone:</label>
+                            <input type="tel" id="telephone" pattern="\d{3}-\d{3}-\d{4}" placeholder="(###) ###-####">
+                            
+                            <label class="standard-label" for="message">Message: *</label>
+                            <textarea maxlength="240" id="message" placeholder="Text max-length 240" required></textarea>
+
+                            <button class="button primary-button" type="submit" value="Send message">Submit</button>
+                        </form>
+                    </div>
+                   
+                </main>
+
+            </div>    
+            <!----------------------------------Footer --------------------------------------->
+
+            <footer class="page-footer">
+
+                <div class="social-media">
+                    <h3>Find me on</h3> 
+                    
+                    <img src="img/github.svg" alt="Github">
+                    <img src="img/twitter.svg" alt="Twitter">
+                    <img src="img/LinkedIn.svg" alt="LinkedIn">
+                </div>
+
+            </footer>
+
+            <script src="js/tota11y.min.js"></script>  
+        </div>
+    </body>
+</html>
