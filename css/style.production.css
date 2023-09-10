@@ -9,14 +9,15 @@
 :root {
   --primary-bg-color: rgb(142, 142, 28);
   --secondary-bg-color: #c6ca4e;
-  --primary-f-color: rgb(252, 252, 244); 
+  --primary-f-color: rgb(252, 252, 244);
   --secondary-f-color: #776904;
   --secondary-f-lighter-color: #8bc918;
   --primary-btn-color: #52278f;/* button's bg color  */
   --secondary-btn-color: #e0b354;
   --grid-bg-color: rgb(193, 156, 9);
   --primary-deco-color: #665c10;
-  /* sun animation color */ 
+
+  /* sun animation color */
   --initial-sun-color: #dec823;
   --middle-sun-color: #bc9712;
   --last-sun-color: #a4680d;
@@ -296,12 +297,15 @@ input[type="submit"]:hover {
   text-decoration: none;
   padding: 10px 20px;  /* adds spacing to the button */
   border-radius: 4px;
-   /* width of the border, type, color */
+
+  /* width of the border, type, color */
   border-bottom: 2px solid var(--primary-deco-color);
   margin: 40px 0 80px;
   min-width: 100px;
+
   /* transition: [transition-property] [transition-duration]
   [transition-timing-funcion(default ease)] [transition-delay(default 0s)] */
+
   /* transition-duration: 0.2s;
   transition-property: opacity; */
   -webkit-transition: opacity 0.2s;
@@ -315,7 +319,7 @@ input[type="submit"]:hover {
   opacity: 2; /* reduce the opacity of the button to % */
 }
 
-/* Keep the secondary button on index.html a different color 
+/* Keep the secondary button on index.html a different color
 .secondary-button {
   background-color: var(--secondary-btn-color);
   color: var(--primary-f-color);
