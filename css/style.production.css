@@ -184,6 +184,10 @@ a:focus {
   margin: 0 auto;
 }
 
+#work_image {
+  color: white;
+}
+
 .profile__text {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 100px;
