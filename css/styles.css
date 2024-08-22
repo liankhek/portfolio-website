@@ -121,7 +121,7 @@ a:focus {
 }
 
 #index_text {
-  text-align: justify;
+  text-align:left;
 }
 
 .about-content {
@@ -132,6 +132,7 @@ a:focus {
 .aboutme,
 .about-skills {
   margin-bottom: 30px;
+  text-align: justify;
 }
 
 #about {
