@@ -120,6 +120,10 @@ a:focus {
   margin-left: 15px;
 }
 
+#index_text {
+  text-align: justify;
+}
+
 .about-content {
   text-align: left;
   margin: 20px;
@@ -128,6 +132,10 @@ a:focus {
 .aboutme,
 .about-skills {
   margin-bottom: 30px;
+}
+
+#about {
+  text-align: center;
 }
 
 .table-list {
