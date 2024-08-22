@@ -129,9 +129,14 @@ a:focus {
   margin: 20px;
 }
 
-.aboutme,
-.about-skills {
+.aboutme {
   margin-bottom: 30px;
+  text-align: justify;
+
+}
+
+.about-skills {
+  margin: 30px;
   text-align: justify;
 }
 
