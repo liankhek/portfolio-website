@@ -251,6 +251,7 @@ input[type="submit"]:hover {
   font-family: inherit; /* takes the font from the outer container */
   text-decoration: none;
   padding: 10px 20px;  /* adds spacing to the button */
+  color: var(--primary-f-color);
   border-radius: 4px;
 
   /* width of the border, type, color */
