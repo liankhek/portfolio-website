@@ -64,40 +64,36 @@
                 <address class="contact-info">
 
                     Lian Khek<br>
-                    2384 Pawnee Ave S<br>
-                    MontG Florida 47348<br>
-
-                    Phone:<a href="#">+1 000-000-0000</a><br>
-                    Email:<a href="mailto:liankhek@gmail.com">liankhek@gmail.com</a><br>
+                    Email:<a href="mailto:liankhek@gmail.com">liankhek@gmail.com</a><br><br>
                     <a href="mailto:liankhek@gmail.com">Contact me</a>
 
                 </address>
 
                 <p>For any inquiries, you may contact me by filling up the following form</p>
 
-                <form class="contact-form" action="#" method="post">
+                <form class="contact-form" action="mailto:liankhek@gmail.com" method="POST" enctype="text/plain">
 
                     <div class="input-wrapper">
-                    <label class="standard-label" for="name">Name: *</label>
-                    <input type="text" id="name" placeholder="Full Name" required>
+                        <label class="standard-label" for="name">Name: *</label>
+                        <input type="text" id="name" name="name" placeholder="Full Name" required>
                     </div>
-
+                
                     <div class="input-wrapper">
-                    <label class="standard-label" for="contact-email">E-mail: *</label>
-                    <input type="email" id="email" placeholder="name@example.com" required>
+                        <label class="standard-label" for="contact-email">E-mail: *</label>
+                        <input type="email" id="email" name="email" placeholder="name@example.com" required>
                     </div>
-
+                    
                     <div class="input-wrapper">
-                    <label class="standard-label" for="telephone">Telephone:</label>
-                    <input type="tel" id="telephone" pattern="\d{3}-\d{3}-\d{4}" placeholder="(###) ###-####">
+                        <label class="standard-label" for="telephone">Telephone:</label>
+                        <input type="tel" id="telephone" name="telephone" pattern="\d{3}-\d{3}-\d{4}" placeholder="###-###-####">
                     </div>
-
+                
                     <div class="input-wrapper">
-                    <label class="standard-label" for="message">Message: *</label>
-                    <textarea maxlength="240" id="message" placeholder="Text max-length 240" required></textarea>
+                        <label class="standard-label" for="message">Message: *</label>
+                        <textarea maxlength="240" id="message" name="message" placeholder="Text max-length 240" required></textarea>
                     </div>
-
-                    <button class="button primary-button" type="submit" value="Send message">Submit</button>
+                
+                    <button class="button primary-button" type="submit">Submit</button>
                 </form>
 
             </main>
@@ -106,13 +102,21 @@
         <!-----Footer ------------>
 
         <footer class="page-footer">
-
+                
             <div class="social-media">
-                <h3>Find me on</h3>
-
-                <img src="img/github.svg" alt="Github">
-                <img src="img/twitter.svg" alt="Twitter">
-                <img src="img/LinkedIn.svg" alt="LinkedIn">
+                <h3>Find me on</h3> 
+                
+                <a href="https://github.com/liankhek" target="_blank">
+                    <img src="img/github.svg" alt="Github">
+                </a>
+                
+                <a href="https://twitter.com/yourTwitterHandle" target="_blank">
+                    <img src="img/twitter.svg" alt="Twitter" width="30" height="30">
+                </a>
+                
+                <a href="https://linkedin.com/in/lian-khek" target="_blank">
+                    <img src="img/LinkedIn.svg" alt="LinkedIn">
+                </a>
             </div>
 
         </footer>
