@@ -143,6 +143,10 @@ a:focus {
   border-bottom: 1px solid #ddd;
 }
 
+#btn_cv {
+  color: white;
+}
+
 .work-content {
   text-align: center;
   margin: 0 auto;
