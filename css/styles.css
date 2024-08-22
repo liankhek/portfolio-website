@@ -148,6 +148,10 @@ a:focus {
   margin: 0 auto;
 }
 
+#work_image {
+  color: white;
+}
+
 .profile__text {
   flex: 1 1 100px;
   font-size: 20px; /* Increase font size */
